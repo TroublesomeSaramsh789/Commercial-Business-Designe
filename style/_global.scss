@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 62.5%;
+}
+h1{
+    font-size: $header1;
+    font-family: streamster;
+}
+h2 {
+    font-size:$header2;
+    font-family: lobster;
+}
+h3 {
+    font-size:$header3;
+    font-family: streamster;
+}
+h4,h5 {
+    font-size:$header4; 
+}
+li, button, label, input, p , a{
+    font-size:$text;
+    font-family: bluehigh;
+}
+a {
+    text-decoration: none;
+    
+}
+ul {
+    list-style: none;
+}
